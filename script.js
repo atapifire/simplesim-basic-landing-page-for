@@ -5,4 +5,5 @@ button.addEventListener('click', (e) => {
   const email = document.querySelector('input').value;
   const message = document.querySelector('textarea').value;
   console.log(`Email: ${email}, Message: ${message}`);
+  alert(`Thank you for your message! We will be in touch soon.`);
 });
